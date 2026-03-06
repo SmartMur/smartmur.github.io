@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SmartMur — Self-hosted AI infrastructure. Open-source tools for AI operations, homelab automation, and infrastructure management.">
+  <meta name="theme-color" content="#1a1025">
+  <meta property="og:title" content="SmartMur — Self-hosted AI Infrastructure">
+  <meta property="og:description" content="Open-source tools for self-hosted AI operations, homelab automation, and infrastructure management.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smartmur.github.io">
+  <title>SmartMur — Self-hosted AI Infrastructure</title>
+  <link rel="icon" type="image/svg+xml" href="assets/smartmur-logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="#" class="nav__brand" aria-label="SmartMur home">
+        <img src="assets/smartmur-logo.svg" alt="" width="32" height="32" class="nav__logo">
+        <span class="nav__name">SmartMur</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="https://github.com/SmartMur" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__content container">
+      <img src="assets/smartmur-logo.svg" alt="SmartMur logo" width="96" height="96" class="hero__logo reveal">
+      <h1 class="hero__title reveal">SmartMur</h1>
+      <p class="hero__tagline reveal">Self-hosted AI infrastructure.<br>Your hardware. Your AI. Your rules.</p>
+      <div class="hero__cta reveal">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="https://smartmur.github.io/smartmur-ai-core/" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Documentation</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section__title reveal">About SmartMur</h2>
+      <p class="about__text reveal">
+        SmartMur builds open-source tools for self-hosted AI operations, homelab automation, and infrastructure management. Everything runs locally &mdash; no cloud dependencies, no subscriptions. We believe your hardware should work for you, powered by AI you control.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section__title reveal">Projects</h2>
+      <div class="projects__grid">
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x1F9E0;</div>
+          <h3 class="card__title">SmartMur AI Core</h3>
+          <p class="card__desc">AI-powered infrastructure automation platform with Claude Code integration, multi-agent orchestration, and self-healing capabilities. 2331 tests.</p>
+          <div class="card__links">
+            <a href="https://smartmur.github.io/smartmur-ai-core/" class="btn btn--small btn--accent" target="_blank" rel="noopener noreferrer">Docs</a>
+            <a href="https://github.com/SmartMur/smartmur-ai-core" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x1F3E0;</div>
+          <h3 class="card__title">Homelab Platform</h3>
+          <p class="card__desc">Production Docker Compose stacks for homelab services, monitoring, and infrastructure.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/smartmur-homelab-platform" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x2638;</div>
+          <h3 class="card__title">Homelab K3s</h3>
+          <p class="card__desc">K3s Kubernetes homelab with GitOps, monitoring, and automated deployments.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/smartmur-homelab-k3s" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x1F3AC;</div>
+          <h3 class="card__title">Homelab Media</h3>
+          <p class="card__desc">Self-hosted media server stack with Plex, Sonarr, Radarr, and automated content management.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/smartmur-homelab-media" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x1F3ED;</div>
+          <h3 class="card__title">Skill Factory</h3>
+          <p class="card__desc">Claude Code skill creation, testing, and publishing toolkit.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/claude-code-skill-factory" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x1F510;</div>
+          <h3 class="card__title">Vault Agent (Tresor)</h3>
+          <p class="card__desc">Claude Code agent orchestration with encrypted credential management.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/claude-code-tresor" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x2699;</div>
+          <h3 class="card__title">Dev Dotfiles</h3>
+          <p class="card__desc">Development environment setup, dotfiles, and toolchain configuration.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/smartmur-dev-dotfiles" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">&#x1F916;</div>
+          <h3 class="card__title">Agent OS</h3>
+          <p class="card__desc">Agent operating system framework for autonomous infrastructure management.</p>
+          <div class="card__links">
+            <a href="https://github.com/SmartMur/agent-os" class="btn btn--small btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="stack" id="stack">
+    <div class="container">
+      <h2 class="section__title reveal">Tech Stack</h2>
+      <div class="stack__grid reveal">
+        <span class="badge">Python</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Redis</span>
+        <span class="badge">FastAPI</span>
+        <span class="badge">Playwright</span>
+        <span class="badge">Claude AI</span>
+        <span class="badge">K3s</span>
+        <span class="badge">Terraform</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__tagline">Built with AI. Run locally.</p>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com/SmartMur" target="_blank" rel="noopener noreferrer">GitHub Org</a>
+        <a href="https://smartmur.github.io/smartmur-ai-core/" target="_blank" rel="noopener noreferrer">Documentation</a>
+        <a href="https://smartmur.ca" target="_blank" rel="noopener noreferrer">smartmur.ca</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 SmartMur</p>
+    </div>
+  </footer>
+
+  <script>
+    // Minimal scroll-reveal using IntersectionObserver — no framework needed
+    document.addEventListener('DOMContentLoaded', () => {
+      const els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        els.forEach(el => el.classList.add('visible'));
+        return;
+      }
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(el => observer.observe(el));
+    });
+  </script>
+
+</body>
+</html>
