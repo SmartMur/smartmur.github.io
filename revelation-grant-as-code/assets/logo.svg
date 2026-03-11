@@ -1,0 +1,23 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shield with broken chain and community technology nodes">
+  <defs>
+    <linearGradient id="shieldGradient" x1="44" y1="24" x2="176" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#155E75"/>
+    </linearGradient>
+  </defs>
+  <path d="M110 18L182 56V110C182 154 153 186 110 202C67 186 38 154 38 110V56L110 18Z" fill="url(#shieldGradient)"/>
+  <path d="M110 32L170 64V108C170 146 146 171 110 186C74 171 50 146 50 108V64L110 32Z" stroke="#CCFBF1" stroke-opacity="0.45" stroke-width="4"/>
+
+  <circle cx="78" cy="76" r="7" fill="#FDE68A"/>
+  <circle cx="110" cy="68" r="7" fill="#FDE68A"/>
+  <circle cx="142" cy="76" r="7" fill="#FDE68A"/>
+  <path d="M85 75L103 70M117 70L135 75" stroke="#FDE68A" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M76 112C76 100 86 90 98 90H107" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M76 112C76 124 86 134 98 134H103" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M144 112C144 100 134 90 122 90H113" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M144 112C144 124 134 134 122 134H117" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M105 104L110 112L115 104" stroke="#FB923C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105 120L110 112L115 120" stroke="#FB923C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
